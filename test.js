@@ -11,9 +11,22 @@ function addTheImage2() {
 }
 
 function addTheImage3() {
-    var img = document.createElement('img');
-    img.src = "phulelouch.github.io/test.php"
-    document.body.appendChild(img);
+   
+            
+            $('#responseAlert').css('display','inline');
+            $('#report').on('click',function(e){
+                $.ajax({
+                    type: "GET",
+                    url: window.location.pathname+"/report",
+                    success: function(resp) {
+                        $("#responseAlert").text(resp); $("#responseAlert").css("display","inline");
+                    }
+                })
+            });
+            
+
+             
+        
 }
 addTheImage();
 addTheImage2();
