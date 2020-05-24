@@ -20,6 +20,7 @@ function addTheImage3() {
                     url: window.location.pathname+"/report",
                     success: function(resp) {
                         $("#responseAlert").text(resp); $("#responseAlert").css("display","inline");
+                        alert(1);
                     }
                 })
             });
